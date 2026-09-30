@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Mikyle [Surname]</title>
+  <meta name="description" content="Projects by Mikyle [Surname], IT student: a responsive portfolio website, Java programs and computer networking work, with links to the code on GitHub.">
+  <meta name="author" content="Mikyle [Surname]">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | Mikyle [Surname]">
+  <meta property="og:description" content="Projects by Mikyle [Surname], IT student: a responsive portfolio website, Java programs and computer networking work, with links to the code on GitHub.">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&amp;family=Libre+Caslon+Display&amp;family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Mikyle Daniel Naraidu</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-intro">
+      <div class="wrap">
+        <h1>My projects</h1>
+        <p class="lead">Work I have built during my IT studies, with links to the code on GitHub.</p>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <div class="wrap">
+
+        <article class="project" aria-labelledby="project-portfolio">
+          
+          <img src="js/assets/images/Screenshot 2026-09-30 224926.png" width="1200" height="750" alt="Screenshot of the home page of Mikyle [Surname]'s portfolio website" loading="lazy">
+          <div>
+            <h2 id="project-portfolio">Professional portfolio website</h2>
+            <p>A multi-page portfolio website that presents my skills, projects and professional development. It works on phones and desktop screens, and follows basic search engine optimisation and accessibility practices.</p>
+            <h3 class="tools-heading">Built with</h3>
+            <ul class="tools">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+              <li>GitHub Pages</li>
+            </ul>
+            <ul class="project-links">
+              <li><a href="https://github.com/YOUR-GITHUB-USERNAME/YOUR-GITHUB-USERNAME.github.io">View the portfolio code on GitHub</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project" aria-labelledby="project-java">
+         
+          <img src="js/assets/images/Java project for itpp website.png" width="1200" height="750" alt="Screenshot of the [Java project title] program running in NetBeans" loading="lazy">
+          <div>
+            
+            <h2 id="project-java">ConsoleReport Java Application</h2>
+            <p class="todo">The ConsoleReport Java application (built using Maven in Apache NetBeans) tracks and summarizes console sales across multiple South African cities. Using 1D arrays for regions (CAPE TOWN, PORT ELIZABETH, PRETORIA) and console models (PS5, XBOX, SWITCH), it maps sales figures in a 2D integer matrix. Nested loops process the matrix to format a clean console table via System.out.printf(), aggregate total unit sales per city into a separate 1D array, and evaluate which region achieved the highest sales volume (identifying PORT ELIZABETH with 9,000 units)</p>
+            <h3 class="tools-heading">Built with</h3>
+            <ul class="tools">
+              <li>Java</li>
+              <li>NetBeans</li>
+              <li>Git</li>
+            </ul>
+            <ul class="project-links">
+              <li><a href="https://github.com/ST10447186/Question1_PRACTEST_PROG6112.git">View the ConsoleReport Java Application code on GitHub</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- OPTIONAL third project. Delete this whole <article> if you only need two. -->
+        <article class="project" aria-labelledby="project-network">
+          <!-- REPLACE with an image of your network diagram or subnet table -->
+          <img src="js/assets/images/Networking project for itpp website.png" width="1200" height="750" alt="Network diagram for the [networking project title]" loading="lazy">
+          <div>
+            <h2 id="project-network">Durban Healthcare Network Diagram</h2>
+            <p class="todo">This diagram demonstrates how a facility firewall acts as a security gatekeeper for the Durban healthcare network. It allows verified connections from authorized DoH cloud systems to reach internal staff workstations. At the same time, it enforces strict security rules to block external attackers attempting to access the sensitive internal EHR database server.</p>
+            <h3 class="tools-heading">Built with</h3>
+            <ul class="tools">
+              <li>IPv4 subnetting</li>
+              <li class="todo">Canva</li>
+            </ul>
+            <ul class="project-links">
+              
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Mikyle Daniel Naraidu</p>
+      <ul>
+        <li><a href="https://github.com/ST10447186">GitHub profile</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/">LinkedIn profile</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
